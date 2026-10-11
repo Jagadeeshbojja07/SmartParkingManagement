@@ -1,18 +1,36 @@
-## Getting Started
+# Smart Parking Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java Swing and MySQL-based desktop application designed to simplify parking slot management.
 
-## Folder Structure
+## Features
+- User login
+- Park and remove vehicles
+- Parking slot management
+- Vehicle reservations and cancellation
+- Search vehicles
+- Parking history
+- Parking statistics
+- Parking fee calculation
 
-The workspace contains two folders by default, where:
+## Technologies Used
+- Java
+- Java Swing
+- MySQL
+- JDBC
+- Visual Studio Code
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Database
+The application uses MySQL to store parking slots, vehicle records, reservations, and user information.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Parking Fees
+- Two-wheelers: ₹20 per hour
+- Four-wheelers: ₹40 per hour
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## How to Run
+1. Install Java JDK and MySQL.
+2. Create the `smart_parking` database and required tables.
+3. Configure your local MySQL username and password in the application.
+4. Add MySQL Connector/J to the Java classpath.
+5. Compile and run the application.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+**Note:** This is a desktop application, not a deployed website or Android app.
